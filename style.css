@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(88, 88, 224);
+}
+
+section {
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+}
+
+.header_menu_item a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: thin solid blue;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#secondary_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.sections-container {
+    display: flex;
+}
+.section {
+    flex: 1; /* Делает каждую секцию равной ширины и рядом с предыдущей */
+    margin: 15px;
+}
+
+.menu, #social_media {
+    padding: 0; /* Убираем внутренний отступ списка */
+    display: flex; /* Делаем элементы меню горизонтальными */
+}
+
+.menu li, #social_media li {
+    margin-right: 20px; /* Отступ между элементами меню */
+}
