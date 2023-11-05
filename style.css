@@ -1,6 +1,10 @@
 body {
     background-color: rgb(88, 88, 224);
 }
+#features {
+    width: 136px;
+    height: 876.59px; 
+}
 
 section {
     background-color: white;
@@ -52,6 +56,40 @@ ul {
     height: 50px;
     margin: 15px;
 }
-.enterprise_icons {
+.icons_list {
     display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.enterprise_icon {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.plan_list {
+    display: flex;
+}
+.plan_item {
+    width: 30%;
+    padding: 10px;
+}
+.footer_list {
+    margin-right: 15px;
+}
+.footer_list a {
+    text-decoration: none;
+    color: black;
+}
+.pricing_footer {
+    display: flex;
+}
+.contact_item {
+    display: flex;
+    align-items: center;
+}
+.contact_item i {
+    margin-right: 10px;
 }
